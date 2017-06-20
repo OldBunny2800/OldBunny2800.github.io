@@ -5,9 +5,10 @@
 		<meta name="viewport" content="width=device-width">
 		<title>Lesson 0</title>
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<link type="text/css" rel="stylesheet" src="/CSS/Mom/0.css"
 	</head>
 	<body>
-		<h1>Day 0: <del>July 25, 2016</del> June 15, 2017</h1>
+		<h1>Day 0: <del>July 25, 2016</del> June 22, 2017</h1>
 		<h1 id="birthday">🎂HAPPY BIRTHDAY!🎂</h1>
 		(This is still last year's birthday present.)
 		<h2>Message</h2>
@@ -33,10 +34,13 @@
 		<p><b><span class="note"></span>There is no software I will ask you to download that is not completely safe for you and your computer.</b></p>
 		<p>Anyway, the language I will be teaching you is called Python. It is a very beginner-friendly language, and is very versatile.
 		<br>
-		<b><span class="fyi"></span></b>Python is the programming language I learned in one of my Chugim (Electives) at camp!  It is also the language I used to code the rock-paper-scissors game I made a couple months ago, and my personal favorite language.</p>
-		<b><span class="note"></span></b>From now on, unless I say otherwise, when I say to open a link, follow these steps:
+		<span class="fyi"></span>Python is the programming language I learned in one of my Chugim (Electives) at camp!  It is also the language I used to code the rock-paper-scissors game I made a couple months ago, and my personal favorite language.</p>
+		<span class="note"></span>From now on, unless I say otherwise, when I say to open a link, follow these steps:
 		<ol>
-			<li>Right click the link. <b><span class="reminder"></span></b>On a Mac, you "right click" by clicking with two fingers.</li>
+			<li>Right click the link.
+				<br>
+				<span class="reminder"></span>On a Mac, you "right click" by clicking with two fingers.
+			</li>
 			<li>Click "open in a new tab".</li>
 			<li>Continue to follow my instructions by switching back and forth between the repl.it tab and the link you opened.</li>
 		</ol>
@@ -48,3 +52,34 @@
 			<li>You learned how to open Terminal!</li>
 			<li>You learned how to use the commands <code>open</code>, <code>ls</code>, and <code>cd</code>.</li>
 		</ul>
+		<h3>Let's do it!</h3>
+		<p>To use Python, you need to know some basic commands in the Terminal.</p>
+		<ol>
+			<li>First, click on your Launchpad (the rocketship in your Dock), go into the Other folder, and click Terminal. A blank screen with some text should come up.</li>
+			<li>First command: <i>open</i>. In your terminal, type a line that looks like this: <code class="codeblock">Jills-MBP:~ Jill Simon$ open -a Safari</code></li>
+			Don't worry if the first part doesn't look exactly like I typed, as long as it looks similar it's fine. Press enter to submit the command. If this window came up, you did it right!
+			<li>Now try:<code class="codeblock">Jills-MBP:~ Jill Simon$ open -a "Sublime Text 2"</code></li>
+			Did a text editor come up? If so, great!
+			<br>
+			<span class="note"></span>From now on, I will only type the $ and everything afterward, because everything before is done for you and doesn't really matter right now. You don't need to type the opening $ though, it's already there.
+			<li>So, the <i>open</i> command <i>open</i>s things!
+				<br>
+				<span class="fyi"></span>What the <i>-a</i> does is specify that you're opening an application. That way, your computer doesn't have to look for some file named Sublime Text 2 or Safari. Also, I used quotes around the Sublime Text 2 so it treats it as one word, not 3. It is a concept you will learn more about tomorrow.
+			</li>
+			<li>Next command: <i>ls</i>. Type<code class="codeblock">$ ls</code>It should come up with a <b>l</b>i<b>s</b>t of all the files in your home folder, or ~. You should recognize some of these! What <i>ls</i> does is lists all the files and directories, or folders, in the folder you are currently in.</li>
+			<li>Type<code class="codeblock">$ cd Documents</code>and press enter. Notice that the ~ at the beginning of the line changed to Documents. What the <i>cd</i> command does is <b>c</b>hanges <b>d</b>irectories on your computer. Basically, it's the same as you double-clicking on a folder in Finder: it goes into it.</li>
+			<li>Type<code class="codeblock">$ mkdir Coding</code>What this did was <b>m</b>a<b>k</b>e a new <b>dir</b>ectory. Test that using <i>ls</i> the same way as step 5. The output would be everything in your Documents folder. Do you see something called Coding in there?</li>
+			<li>Like in Step 6, move into the Coding directory.</li>
+			<li>Last new command:<code class="codeblock">$ touch helloworld.py</code>You can see what this did if you use <i>ls</i> again. What <i>touch</i> does is create a file in the folder you are currently in.
+				<br>
+				<span class="fyi"></span>In these challenges, always use <i>.py</i> at the end. This tells the computer it's a <i>py</i>thon file.
+			</li>
+			<li>Finally, <i>open</i> can open files too. Type<code class="codeblock">$ open helloworld.py -a "Sublime Text 2".</code>The text editor should open to a blank file, but at the top of the window, you should see "helloworld.py". To break it down, you <i>open</i>ed the file we just made in the <i>-a</i>pplication Sublime Text 2, what we downloaded earlier.</li>
+		</ol>
+		<p>Whew! That was a lot for one day. The next days will be a lot shorter, I promise. You now know how to use the terminal enough to use Python. Don't worry, I will remind you in the coming days on what to do. Anyway, your reward:</p>
+		<button id="done">Reward</button>
+		<iframe id="video" style="display:none;" width="560" height="315" src="https://www.youtube.com/embed/qD0_yWgifDM" frameborder="0" allowfullscreen></iframe>
+		<h2 class="message">Congratulations!</h2>
+		<p class="message">I hope you enjoyed this zeroth day! I hope you would like to continue, and please give feedback to me. Love you!</p>
+	</body>
+</html>

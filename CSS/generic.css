@@ -1,20 +1,24 @@
 .warning
 {
-	color:#ff0000;
-	content:"Warning: ";
+	color: #ff0000;
+	content: "Warning: ";
 }
 .note
 {
-	color:#8800ff;
-	content:"Note: ";
+	color: #8800ff;
+	content: "Note: ";
 }
 .reminder
 {
-	color:#008800;
-	content:"Reminder: ";
+	color: #008800;
+	content: "Reminder: ";
 }
 .fyi
 {
-	color:#0000ff;
-	content:"FYI: ";
+	color: #0000ff;
+	content: "FYI: ";
+}
+.codeblock
+{
+	display: block;
 }
