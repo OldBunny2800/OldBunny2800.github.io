@@ -1,19 +1,19 @@
-.warning
+.warning:after
 {
 	color: #ff0000;
 	content: "Warning: ";
 }
-.note
+.note:after
 {
 	color: #8800ff;
 	content: "Note: ";
 }
-.reminder
+.reminder:after
 {
 	color: #008800;
 	content: "Reminder: ";
 }
-.fyi
+.fyi:after
 {
 	color: #0000ff;
 	content: "FYI: ";
