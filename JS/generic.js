@@ -1,3 +1,4 @@
-$(document).ready(function(){
-	$("li:not(:last-of-type)").prepend(document.createElement("br"));
+function standard(){
+	$("li:not(:last-of-type)").append(document.createElement("br"));
 });
+export standard
