@@ -22,14 +22,5 @@
 {
 	display: block;
 	color: #ffffff;
-	background-color: #333333;
-}
-.codeblock:before,
-.codeblock:after
-{
-	content: "<br>";
-}
-li:not(:last-of-type):after
-{
-	content: "<br>";
+	background-color: #444444;
 }
