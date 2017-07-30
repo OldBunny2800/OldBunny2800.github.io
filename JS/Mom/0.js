@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	standard()
-	$("#done").onClick(function(){
+	$("#done").click(function(){
 		$("#video").show();
 	});
 });
