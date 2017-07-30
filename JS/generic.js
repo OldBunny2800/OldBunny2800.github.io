@@ -8,7 +8,7 @@ function standard(){
 	{
 		$(this).progressbar(
 		{
-			value: $(this).data("data-progress-value");
+			value: $(this).data("data-progress-value")
 		});
 	});
 }
