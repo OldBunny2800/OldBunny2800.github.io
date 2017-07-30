@@ -3,6 +3,7 @@ function standard(){
 	$("#done").click(function(){
 		$("#video").show();
 		$("#done").hide();
+		$(".message").show();
 	});
 	$(".progressbar").each(function()
 	{

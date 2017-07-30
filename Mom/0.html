@@ -21,16 +21,16 @@
 		<p>I still would like to start a daily challenge for you, but I have slightly changed it. Here is how it will now work:</p>
 		<ol>
 			<li>I will text you when the daily challenge is ready.</li>
-			<li>When you get the chance, open <a href="OldBunny2800.github.io">OldBunny2800.github.io</a> and type in your username in the box. (This is preset to "Mom", but I can change it for you if you want.) Click <kbd>Go!</kbd>.</li>
+			<li>When you get the chance, open <a href="http://OldBunny2800.github.io">OldBunny2800.github.io</a> and type in your username in the box. (This is preset to "Mom", but I can change it for you if you want.) Click <kbd>Go!</kbd>.</li>
 			<li>You will see all the past challenges (if you want to revisit them). The new one will be at the bottom of the page; click on it!</li>
-			<li>You will have a programming challenge. I know you don't know how, just keep reading:</li>
+			<li>You will have a programming challenge. I know you don't know how, just keep reading:
 			<br>
 			The challenge will consist of:
 			<ul>
 				<li>Instructions. I will make sure you know all you need to know to solve the challenge.</li>
 				<li>A place to write your code or answer the challenge.</li>
 				<li>Dynamic feedback based on the code you wrote.</li>
-			</ul>
+			</ul></li>
 			<li>On successful completion, you will unlock a new TED-Ed or Crash Course video handpicked by me. I'm sure you will find them very interesting.</li>
 		</ol>
 		If you have any questions, please find me or <a href="mailto:NoahS2003@gmail.com">email me</a>.
@@ -51,10 +51,10 @@
 		</ol>
 		<h3><span class="reminder"></span>What you did last time:</h3>
 		<ul>
-			<li>You downloaded Sublime Text 2, a free coding text editor! This is useful because it provides syntax highlighting, which color-codes (no pun intended) your code as you write, making it easier to understand your code.</li>
+			<li>You downloaded Sublime Text 2, a free coding text editor! This is useful because it provides syntax highlighting, which color-codes (no pun intended) your code as you write, making it easier to understand your code.
 			<div class="progressbar" data-progress-value="50"></div>
 			<br>
-			Everything past this point, we will review, so don't worry.
+			Everything past this point, we will review, so don't worry.</li>
 			<li>You learned how to open Terminal!</li>
 			<li>You learned how to use the commands <code>open</code>, <code>ls</code>, and <code>cd</code>.</li>
 		</ul>
@@ -64,22 +64,22 @@
 			<li>First, click on your Launchpad (the rocketship in your Dock), go into the Other folder, and click Terminal. A blank screen with some text should come up.</li>
 			<li>First command: <code>open</code>. In your terminal, type a line that looks like this: <code class="codeblock">Jills-MBP:~ Jill Simon$ open -a Safari</code>
 			Don't worry if the first part doesn't look exactly like I typed, as long as it looks similar it's fine. Press enter to submit the command. If this window came up, you did it right!</li>
-			<li>Now try:<code class="codeblock">Jills-MBP:~ Jill Simon$ open -a "Sublime Text 2"</code></li>
+			<li>Now try:<code class="codeblock">Jills-MBP:~ Jill Simon$ open -a "Sublime Text 2"</code>
 			Did a text editor come up? If so, great!
-			<span class="note"></span>From now on, I will only type the $ and everything afterward, because everything before is done for you and doesn't really matter right now. You don't need to type the opening $ though, it's already there.
+			<span class="note"></span>From now on, I will only type the $ and everything afterward, because everything before is done for you and doesn't really matter right now. You don't need to type the opening $ though, it's already there.</li>
 			<li>So, the <code>open</code> command <em>open</em>s things!
 				<br>
 				<span class="fyi"></span>What the <code>-a</code> does is specify that you're opening an application. That way, your computer doesn't have to look for some file named Sublime Text 2 or Safari. Also, I used quotes around the Sublime Text 2 so it treats it as one word, not three.
 			</li>
 			<li>Next command: <code>ls</code>. Type<code class="codeblock">$ ls</code>It should come up with a <em>l</em>i<em>s</em>t of all the files in your home folder, or ~. You should recognize some of these! What <code>ls</code> does is lists all the files and directories, or folders, in the folder you are currently in.</li>
 			<li>Nice segue, if I do say so myself! Just like a human navigating through their files (like in Finder on a Mac or Windows Explorer on Windows), the terminal is always "in" a directory, or folder. You can check this by looking at the top of the Terminal window. Right now, it will probably have a house emoji and then "Jill Simon — -bash — [number]×[number]. If you want more information, you can always run the <code>pwd</code> command. Try it now:<code class="codeblock">$ pwd</code>It will probably print "/Users/Jill Simon". What <code>pwd</code> does is <em>p</em>rints the <em>w</em>orking <em>d</em>irectory, or the folder you are currently working in.</li>
-			<li>Now, how do you change your working directory? Type<code class="codeblock">$ cd Documents</code>and press enter. Notice that the ~ at the beginning of the line changed to Documents, and so did the line at the top of the screen. What the <code>cd</code> command does is <em>c</em>hanges <em>d</em>irectories on your computer. Basically, it's the same as you double-clicking on a folder in Finder: it goes into it.</li>
+			<li>Now, how do you change your working directory? Type<code class="codeblock">$ cd Documents</code>and press enter. Notice that the ~ at the beginning of the line changed to Documents, and so did the line at the top of the screen. What the <code>cd</code> command does is <em>c</em>hanges <em>d</em>irectories on your computer. Basically, it's the same as you double-clicking on a folder in Finder: it goes into it.
 			<span class="fyi"></span>Three interesting ways to use <code>cd</code>:
 			<ol>
 				<li>If you type <code>cd ..</code>, it will go out one folder. If you did that in Documents like you are now, it will go back to the folder above, which is your home folder.</li>
 				<li>If you type <code>cd ~</code>, it will teleport you back to your home folder, no matter where you are on your computer. Useful if you are lost in your folders or just happen to by many subfolders in.</li>
 				<li>These things can be combined! <code>cd "~/../Eli Simon"</code> will take you to Eli's home folder! (notice the quotes; I do this so it doesn't think "~/../Eli" and "Simon" are two separate things.) How it does this: First, it teleports to your home folder. Then, it goes out one folder, into "Users". Then, it looks for a subfolder named "Eli Simon", and you're there!</li>
-			</ol>
+			</ol></li>
 			<li>Type<code class="codeblock">$ mkdir Coding</code>What this did was <em>m</em>a<em>k</em>e a new <em>dir</em>ectory. Test that using <code>ls</code> the same way as step 5. The output would be everything in your Documents folder. Do you see something called Coding in there?</li>
 			<li>Like in Step 7, move into the Coding directory.</li>
 			<li>Last new command:<code class="codeblock">$ touch helloworld.py</code>You can see what this did if you use <code>ls</code> again. What <code>touch</code> does is create a file in the folder you are currently in.
@@ -123,7 +123,7 @@
 		</table>
 		<p>Whew! That was a lot for one day. The next days will be a lot shorter, I promise. You now know how to use the terminal enough to use Python. Don't worry, I will remind you in the coming days on what to do. Anyway, your reward:</p>
 		<button id="done">Reward</button>
-		<iframe id="video" style="display:none;" width="560" height="315" src="https://www.youtube.com/embed/qD0_yWgifDM" frameborder="0" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/qD0_yWgifDM" allowfullscreen></iframe>
 		<h2 class="message">Congratulations!</h2>
 		<p class="message">I hope you enjoyed this zeroth day! I hope you would like to continue, and please give feedback to me. Love you!</p>
 	</body>
