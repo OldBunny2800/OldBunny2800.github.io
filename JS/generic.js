@@ -4,4 +4,11 @@ function standard(){
 		$("#video").show();
 		$("#done").hide();
 	});
+	$(".progressbar").each(function()
+	{
+		$(this).progressbar(
+		{
+			value: $(this).data("data-progress-value");
+		});
+	});
 }
