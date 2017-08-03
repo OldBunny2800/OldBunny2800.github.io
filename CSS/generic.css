@@ -24,3 +24,8 @@
 	color: #ffffff;
 	background-color: #444444;
 }
+.ui-progressbar-value /* This is a jQuery class. */
+{
+	text-align: right;
+	line-height: 200%;
+}
