@@ -10,6 +10,6 @@ function standard(){
 		$(this).progressbar(
 		{
 			value: $(this).data("progress-value")
-		}).children(".ui-progressbar-value").html($(this).data("progress-value").toString() + "%")
+		}).children(".ui-progressbar-value").html($(this).data("progress-value").toString() + "%");
 	});
 }
