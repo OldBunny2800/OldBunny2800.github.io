@@ -15,5 +15,5 @@ function standard(){
 			$("#done").show();
 		});
 	}
-	catch {}
+	catch(e) {}
 }
