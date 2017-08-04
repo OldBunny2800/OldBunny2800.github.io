@@ -5,25 +5,15 @@ function standard(){
 		$("#done").hide();
 		$(".message").show();
 	});
-	$(".progressbar").each(function()
-	{
-		$(this).progressbar(
-		{
+	$(".progressbar").each(function() {
+		$(this).progressbar({
 			value: $(this).data("progress-value")
 		}).children(".ui-progressbar-value").html($(this).data("progress-value").toString() + "%");
 	});
-	if($(location).attr("path") != "/Users/Mom/0.html")
-	{
-		try
-		{
-			challenge.done(function()
-			{
-				$("#done").show();
-			});
-		}
+	try {
+		challenge.done(function() {
+			$("#done").show();
+		});
 	}
-	else
-	{
-		$("done").show();
-	}
+	finally {}
 }
