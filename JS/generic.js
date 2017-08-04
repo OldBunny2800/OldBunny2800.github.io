@@ -1,6 +1,4 @@
 function standard(){
-	$("#video").hide();
-	$(".message").hide();
 	$("li:not(:last-of-type)").append(document.createElement("br"), document.createElement("br"));
 	$("#done").click(function(){
 		$("#video").show();
@@ -16,10 +14,16 @@ function standard(){
 	});
 	if($(location).attr("path") != "/Users/Mom/0.html")
 	{
-		$("#done").hide();
-		challenge.done(function()
+		try
 		{
-			$("#done").show();
-		});
+			challenge.done(function()
+			{
+				$("#done").show();
+			});
+		}
+	}
+	else
+	{
+		$("done").show();
 	}
 }
