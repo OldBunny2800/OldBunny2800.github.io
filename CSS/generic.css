@@ -29,3 +29,11 @@
 	text-align: right;
 	line-height: 200%;
 }
+#video
+{
+	display: none;
+}
+.message
+{
+	display: none;
+}
