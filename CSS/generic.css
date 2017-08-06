@@ -34,3 +34,20 @@
 {
 	display: none;
 }
+#review
+{
+	border-collapse: collapse;
+}
+#review tr
+{
+	border-width: 1px 0;
+	border-style: solid;
+}
+#review tr:first-child
+{
+	border-top: none;
+}
+#review tr:last-child
+{
+	border-bottom: none;
+}
