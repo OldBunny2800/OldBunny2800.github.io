@@ -1,28 +1,28 @@
 .warning:after
 {
-	color: #ff0000;
+	color: #f00;
 	content: "Warning: ";
 }
 .note:after
 {
-	color: #8800ff;
+	color: #80f;
 	content: "Note: ";
 }
 .reminder:after
 {
-	color: #008800;
+	color: #080;
 	content: "Reminder: ";
 }
 .fyi:after
 {
-	color: #0000ff;
+	color: #00f;
 	content: "FYI: ";
 }
 .codeblock
 {
 	display: block;
-	color: #ffffff;
-	background-color: #444444;
+	color: #fff;
+	background-color: #444;
 }
 .ui-progressbar-value /* This is a jQuery class. */
 {
@@ -55,4 +55,8 @@
 #review tr:last-child
 {
 	border-bottom: none;
+}
+body
+{
+	background-color: #eee;
 }
