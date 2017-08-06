@@ -16,4 +16,5 @@ function standard(){
 		});
 	}
 	catch(e) {}
+	$(".warning, .note, .reminder, .fyi").prepend(document.createElement("br"));
 }
