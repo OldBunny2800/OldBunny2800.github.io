@@ -46,6 +46,11 @@
 #review tr:first-child
 {
 	border-top: none;
+	border-bottom: none;
+}
+#review tr:nth-child(2)
+{
+	border-top: none;
 }
 #review tr:last-child
 {
