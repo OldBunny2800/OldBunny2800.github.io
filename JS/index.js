@@ -20,7 +20,7 @@ $(document).ready(function()
 	    if(http.status == 404) {
 	    		alert("User does not exist. Please contact Noah if this is in error.");
 	    } else {
-	    		window.location.replace(userUrl);
+	    		window.location = userUrl;
 	    }
 	});
 });
