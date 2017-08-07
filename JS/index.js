@@ -3,7 +3,7 @@ $(document).ready(function()
 	standard();
 	$("#userform").submit(function() {
 		var username = $('#userform input[name="username"]').val();
-		var userUrl = "http://oldbunny2800.github.io/Users/" + username + "/user.html";
+		var userUrl = "http://oldbunny2800.github.io/Users/" + username + "/user.html/";
 		$.ajax({
 			url : userUrl,
 			type : "HEAD",
