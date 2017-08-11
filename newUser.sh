@@ -17,7 +17,7 @@ function newUser()
 			cat blankUserCSS.css > CSS/Users/$1/user.css
 			cat blankUserJS.js > JS/Users/$1/user.js
 			echo "User $1 created. Remember to edit the HTML and JS."
-			newLine=foo
+			newLine="*"
 			while [ -n $newline ]
 			do
 				read -p "When ready, press enter to commit." newLine
