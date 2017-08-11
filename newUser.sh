@@ -16,7 +16,12 @@ function newUser()
 			cat blankUserHTML.html > Users/$1/user.html
 			cat blankUserCSS.css > CSS/Users/$1/user.css
 			cat blankUserJS.js > JS/Users/$1/user.js
-			echo "User $1 created. Remember to edit the HTML."
+			echo "User $1 created. Remember to edit the HTML and JS."
+			newLine=""
+			while [ "\n" != $newline ]
+			do
+				read -p "When ready, press enter to commit." newLine
+			done
 			git add Users/$1 CSS/Users/$1 JS/Users/$1
 			git commit -m "User $1 automatically created."
 			git push
