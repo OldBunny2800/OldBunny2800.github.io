@@ -5,7 +5,7 @@ function newUser()
 	then
 		DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 		cd $DIR
-		if [ -d $1 ]
+		if [ -d Users/$1 ]
 		then
 			echo "User already exists."
 			exit 3
@@ -17,8 +17,8 @@ function newUser()
 			cat blankUserCSS.css > CSS/Users/$1/user.css
 			cat blankUserJS.js > JS/Users/$1/user.js
 			echo "User $1 created. Remember to edit the HTML and JS."
-			newLine=""
-			while [ "\n" != $newline ]
+			newLine=foo
+			while [ -n $newline ]
 			do
 				read -p "When ready, press enter to commit." newLine
 			done
