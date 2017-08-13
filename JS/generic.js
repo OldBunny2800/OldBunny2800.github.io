@@ -14,6 +14,7 @@ function standard(){
 		challenge.done(function() {
 			$("#done").show();
 		});
+		$("#done").hide();
 	}
 	catch(e) {}
 	$(".warning, .note, .reminder, .fyi").prepend(document.createElement("br"));
